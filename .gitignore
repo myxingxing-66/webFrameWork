@@ -1,0 +1,32 @@
+### MAVEN
+target/
+pom.xml.tag
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+### OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### idea
+/out/
+.idea
+*.iml
+*.iws
+tomcatlogdir_*
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### eclipse
+.project
+.settings
+.classpath
+
+### log
+*.log
+*.zip
