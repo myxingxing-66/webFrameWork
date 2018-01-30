@@ -1,10 +1,7 @@
 package cn.myxingxing.web;
 
 import cn.myxingxing.web.annotation.Controller;
-import cn.myxingxing.web.helper.BeanHelper;
-import cn.myxingxing.web.helper.ClassHelper;
-import cn.myxingxing.web.helper.ControllerHelper;
-import cn.myxingxing.web.helper.IoCHelper;
+import cn.myxingxing.web.helper.*;
 import cn.myxingxing.web.util.ClassUtil;
 
 /**
@@ -18,6 +15,7 @@ public final class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IoCHelper.class,
                 ControllerHelper.class
         };
